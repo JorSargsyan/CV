@@ -1,0 +1,386 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.starter{height: 100px;}
+
+.starter p{
+    margin: 50px 60px;
+    position: fixed;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    transition:0.5s;
+}
+
+.starter p:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.starter button{
+    margin: 50px;
+    right: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 255, 0);
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    width: 28%;
+    transition: 0.5s;
+}
+
+.starter button:hover{
+    cursor: pointer;
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+.section1{
+    background-image:url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    margin: 150px 0 -125px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider{}
+
+.header p:first-child{
+    letter-spacing: 8px;
+    margin: 24px auto -10px  auto;
+    font-size: 80;
+    color: white;
+    font-weight: bolder;
+}
+
+.header p:nth-child(2){
+    margin: 20px auto;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#profile-picture{
+    border: 8px solid white;
+    margin: 5px auto;
+    border-radius: 100%;
+    height: 220px;
+    width: 220px;
+    }
+
+    .header :nth-child(3):hover{
+        cursor: pointer;
+        color: rgb(105, 40, 40);
+    }
+
+.about{
+    height: 375px;
+    padding-top: 150px;
+    background: white;
+    display: flex;
+}
+
+.right{
+    margin: 30px;
+    width: 50%;
+}
+.left{
+    margin: 30px;
+    width: 50%;
+}
+
+.right p:first-child{
+    margin: 0 0px 20px 0;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ hr{
+    height: 6px;
+    width: 55px;
+    background-color: red;
+    border-style: none;
+    margin: 0 0px;
+}
+
+.skills hr{
+     background-color: white;
+}
+
+.icons{
+    cursor: pointer;
+    /* margin-right: 10px; */
+    margin-bottom: 23px;
+    height: 50px;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+.container{
+    background-color: white;
+}
+
+.section2{
+     background-image:url("img/bg2.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 176%;
+}
+
+
+
+.section2 p:nth-child(2){
+    font-size: 35;
+    margin: auto;
+    color: #2e4975;
+}
+
+.skills{
+    padding: 100px 0px 0px 30px;
+}
+
+#skill{
+    font-weight: bold;
+    margin: 30 0 15px 0;
+    font-size: 41px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.wrapper{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rect{
+    transition: 0.5s;
+    width: 33%;
+    height: 285px;
+}
+.rect1{
+    text-align: center;
+    background-color: #fffcfc;
+}
+
+.rect1:hover{cursor: pointer;background-color: rgb(173, 173, 173);}
+.rect2:hover{
+    cursor: pointer;
+    background-color: #378c8c;
+}
+
+.icons:hover{
+    cursor:pointer;
+    background-color: rgb(162, 159, 159);
+}
+.rect2{
+    text-align: center;
+    background-color: rgb(161, 177, 187);
+}
+
+.rect p:first-child{font-size: 25px;margin: 100 0 0 0;}
+
+.rect1 p:nth-child(2){
+    color: red;
+}
+
+.contain{
+    margin-top: 120px;
+    display: flex;
+}
+
+.id{
+    width: 50%;
+    background-color: #2e4975;
+    padding: 50px 0px 15px 25px;
+}
+
+.contact{
+    padding: 50px 0px 15px 25px;
+    width: 50%;
+    background-color: #a1b1bb;
+}
+
+.title{
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 15px 0px;
+}
+table tr :nth-child(2) {
+    
+    margin: 0;
+    color: white;
+}
+
+table  tr  :first-child{
+    color: white;
+    padding: 0px  64px 0 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+table{
+    margin: 50px 0;
+}
+
+table tr{
+    margin: 27px 0px;
+}
+
+
+.form{
+    display: flex;
+}
+
+.input_design{width: 51%;font-size: 19px;border-style: none;border-bottom: 1px solid #2e4975;color: #2e4975;background-color: rgba(255, 255, 255, 0);}
+
+#name{
+    width: 40%;
+    margin: 50 20px 0 0;
+}
+
+#mail{
+    margin: 50px 0px 0 -8px;
+}
+
+.message{
+    font-size: 19px;
+    border-style: none;
+    border-bottom: 1px solid #2e4975;
+    margin-top: 20px;
+    width: 94%;
+    height : 150px;
+    background-color: #a1b1bb;
+    color: #2e4975;
+}
+
+.send{
+    color: #2e4975;
+    font-size: 19px;
+    margin-top: 20px;
+    background-color: #a1b1bb;
+    border-style: none;
+    cursor: pointer;
+    margin: 20px 41%;
+}
+
+.footer{display: flex;height: 200px;background-color:white;}
+
+.footer .left button{
+    margin: 50px;
+    right: 0;
+    background-color: rgba(0, 0, 255, 0);
+    border: 1px solid white;
+    color: black;
+    height: 60px;
+    width: 75%;
+    transition: 0.5s;
+}
+
+
+.footer .left button:hover{
+    cursor: pointer;
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+.footer .right{
+    margin: 80px auto;
+}
+
+#foot{
+    /* text-align: center; */
+    color: gray;
+}
+
+
+@media screen and (min-width:290px) and (max-width:700px) {
+    
+    .footer{
+        width: 70%;
+    }
+    .starter button{
+        display:none;
+    }
+    .starter p{
+        display:none;
+    }
+    .header p:first-child{
+        font-size:20px;
+    }
+    .header p:nth-child(2){
+        font-size: 15px;
+    }
+    .about{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .right{
+        width: 81%;
+    }
+    .left{
+        width: 81%;
+    }
+    .section2{
+        background-size: 330%;
+    }
+    .rect{
+        display: flex;
+        height: 25%;
+        flex-direction: column;
+    }
+    .section2 p:nth-child(2){
+        font-size: 20px;
+    }
+    .section2 p:nth-child(1){
+        font-size: 21px;
+    }
+    .rect p:first-child{
+        margin: auto;
+    }
+    .contain{
+        flex-direction: column;
+    }
+    .id{
+        width: 100%;
+        padding: 0px;
+    }
+    table  tr  :first-child{
+        padding: 0 1%;
+        margin: 0;
+    }
+    .contact{
+        width:100%;
+        padding: 0;
+    }
+    .form{
+        flex-direction: column;
+    }
+    #mail{
+        margin: 10 0;
+    }
+    #foot{
+        text-align: left;
+    }
+    
+}
+
+@media screen and (min-width:700px) and (max-width:800px){
+    .header p:first-child{
+        font-size: 45px;
+    }
+}
